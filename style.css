@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing:border-box;
+} 
+body{
+    min-height:100vh;
+    width:100%;
+    /* background-image: linear-gradient(rgba(4,6,30,0.8),rgba(4,9,20,0.9)),url(triangleWall.jpg); */
+    background-position: center;
+    background-size: cover;
+    position: relative;  /* relative changed to fixed later..*/
+    height:100vh;
+    
+    
+}
+.header{
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    /* justify-content: center; */
+    align-items: center;
+    overflow:hidden; 
+    box-shadow:8px 8px 9px black;
+    color:white;
+    padding:2em;
+    /* opacity:1; */
+    /* outline: 2px solid rgb(3, 93, 57); */
+    /* outline-offset:1px; */
+    /* border-width: 8px; */
+    /* border-radius:10px; */
+    width:100wh;
+    height:100vh;
+    background-image: linear-gradient(to top, rgba(155, 168, 168, 0.69), rgb(7, 0, 6));
+}
+.p1{
+    color:rgb(3, 40, 143);
+    font-size:xx-large; 
+    margin:25px;
+ text-shadow:
+ 0.08em 0.15em 0 rgb(10, 10, 10),
+ 0.15em 0.07em 0 rgb(71, 37, 6),
+ 0.08em 0.13em 0 rgb(11, 1, 27);
+
+}
+.p2{
+    margin-top:1em;
+    margin-bottom:2.4em;
+    padding:2px;
+}
+.inputDate{
+    border:none;
+    outline:none;
+    padding:0.3em 1em;
+    border-radius: 13px;
+    background:rgb(72, 84, 100);
+    opacity:0.75;
+    color:white;
+    font-family:inherit;
+    font-size:105%;
+    width:35wh;
+    margin:30px;
+
+}
+.check-button{
+    margin:2px;
+    border-radius: 4px;
+    padding:5px;
+    width:4em;
+    font-size: 90;
+    box-shadow:5px 5px 5px black;
+}
+.check-button:hover{
+    background-color: rgb(21, 21, 47);
+}
+.output{
+    margin:14px;
+    color:rgb(21, 20, 46);
+}
+.footer{
+    margin:10px;
+    margin-top:70px;
+    color: rgb(12, 12, 12);
+}
+.fab{
+    color:rgb(21, 21, 46);
+}
+
+@media(max-width:533px){
+    .p1{
+        font-size:xx-large;
+        margin-left:90px;
+
+    }
+    .footer{
+        margin-bottom:3px;
+        margin-top:37px;
+    }
+}
+@media(max-width:437px){
+    .p1{
+        margin-left:54px;
+    }
+}
